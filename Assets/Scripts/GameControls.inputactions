@@ -1,0 +1,54 @@
+{
+    "name": "GameControls",
+    "maps": [
+        {
+            "name": "Game",
+            "id": "01ca511f-1b87-4549-b449-9350856efe85",
+            "actions": [
+                {
+                    "name": "Move",
+                    "type": "Button",
+                    "id": "2e01a21f-e20d-4f2e-b0ef-f0074c8e8118",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "TreatDisease",
+                    "type": "Button",
+                    "id": "66a86aae-5b8b-427a-bcf2-f19b66d0a55e",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "753c644a-bea0-40c1-a482-f203f6912a86",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c0d49fda-ed4b-4f2e-aeab-974a8cb073c7",
+                    "path": "<Keyboard>/t",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TreatDisease",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
